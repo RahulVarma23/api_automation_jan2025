@@ -20,9 +20,6 @@
                 <artifactId>maven-surefire-plugin</artifactId>
                 <version>3.0.0-M7</version> <!-- Ensure a stable version -->
                 <configuration>
-                    <suiteXmlFiles>
-                        <suiteXmlFile>testng.xml</suiteXmlFile>
-                    </suiteXmlFiles>
                     <systemPropertyVariables>
                         <allure.results.directory>target/allure-results</allure.results.directory>
                     </systemPropertyVariables>
